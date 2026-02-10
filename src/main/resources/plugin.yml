@@ -1,0 +1,4 @@
+name: ForgeSkin
+version: '${version}'
+main: ru.minkyy.forgeskin.ForgeSkin
+api-version: '1.16'
