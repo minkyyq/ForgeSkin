@@ -1,4 +1,18 @@
 name: ForgeSkin
 version: '${version}'
-main: ru.minkyy.forgeskin.ForgeSkin
+main: ru.minkyyq.forgeskin.ForgeSkin
 api-version: '1.16'
+commands:
+  forgeskin:
+    description: Основная команда плагина forgeskin.
+    usage: /<command> reload
+    permission: forgeskin.admin
+    permission-message: "&cУ вас нет прав для использования этой команды."
+
+permissions:
+  forgeskin.admin:
+    description:
+    default: op
+  forgeskin.bypass:
+    description:
+    default: false
